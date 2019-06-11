@@ -1,5 +1,6 @@
 # Our overall goal here is simply to examine how household energy usage varies over a 2-day period 
-# in February, 2007. Hstogram of Global Active Power will be constructed using the base plotting system.
+# in February, 2007. Four charts are constructed using the base plotting system.
+# Global active power, sub metering, voltage and Global reactive power
 #
 # Current working directory must contain the data file.
 
