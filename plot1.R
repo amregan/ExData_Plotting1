@@ -6,7 +6,7 @@
     # read data file
     householdpowerconsumption <- read.table("household_power_consumption.txt", sep=";", header=TRUE, na.strings = "?")
     # subset just the first 2 days in February 2007
-    ebdata <- subset(householdpowerconsumption, subset = householdpowerconsumption$Date=="1/2/2007" | householdpowerconsumption$Date=="2/2/2007")
+    febdata <- subset(householdpowerconsumption, subset = householdpowerconsumption$Date=="1/2/2007" | householdpowerconsumption$Date=="2/2/2007")
 
     # open graphic file device, bitmap format, filename will appear directly in working directory
     png(filename="plot1.png", width=480, height=480)
